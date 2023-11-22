@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet"href="style.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+        />
+</head>
+<body>
+  <!-- nav bar start -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"style="padding-left: 200px;"><img src="assets/img-20231108T143936Z-001/img/favicon.png" alt="" width="30" height="24" style=color:green;>PLANTEX</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link"href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="#">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="#">Contact us</a>
+          </li>
+          
+          
+        </ul>
+        <i class="fas fa-moon change-theme" id="theme-button" onclick="darkMode()"></i>
+
+         </div>
+       </nav>
+        <!-- nav bar end -->
+
+      <!-- main content start -->
+      <main class="container">
+      <!-- main 1 -->
+      <!-- <div class="row my-5 main-row">
+      <div class="col-md-7">
+          <h1 class="home-title">
+              Plants will make <br />
+              your life better
+          </h1>
+          <p class="home-description">
+              Create incredible plant design for your offices or apastaments. Add fresness to your new ideas.
+          </p>
+          <a href="#about" class="btn btn-success p-3 my-4">
+              Explore <i class="fas fa-arrow-right ps-2"></i>
+          </a>
+      </div>
+      <div class="col-md-5">
+          <img src="assets/img-20231108T143936Z-001/img/home.png" alt="" class="home-img" />
+      </div>
+     </div> -->
+
+     
+<!-- main content start -->
+     <div class="row">
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active  ">
+              <div class="row section1">
+                <div class="col-lg-6 ">
+                  <div class="para">
+                  <h1 style= "font-size: 40px;">Plants will make<br>your life better</h1>
+                  <p style="font-weight: 50;">Create incredible plant design for your offices or apastaments.<br>Add fresness to your new ideas.</p>
+                  <button type="button" class="button1" style="color: rgb(39, 72, 101);">
+                    Explore <img src="assets/img-20231108T143936Z-001/img/home.png" width="20px" height="20px" >
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6 ">
+                <div class="img1">
+                  <img src="assets/img-20231108T143936Z-001/img/home.png" class="img" alt="Man working with computer" >
+                
+                </div>
+                
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row section1">
+                <div class="col-lg-6 ">
+                  <div class="green plant">
+                  <h3 style="word-spacing: 15px; ">65% OFF</h3><h1>NEW PLANT</h1>
+                  <p>Pronia, With 100% Natural, Organic & Plant Shop.</p>
+                  <button type="button" class="button1" style="color: aliceblue;">
+                    DISCOVER NOW
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6 ">
+                <div class="img1">
+                  <img src="assets/img-20231108T143936Z-001/img/carousel.png" class="img" alt="Man working with computer" >
+                
+                </div>
+                
+                </div>
+                </div>
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+        
+     <!----------------------------- main 2 -------------------------------->
+
+        <div class="row my-5 main-row" id="about">
+        <div class="col-md-6">
+        <img src="assets/img-20231108T143936Z-001/img/about.png" alt="website" id="zoom-image" class="img-fluid about-img" />
+        </div>
+        <div class="col-md-6">
+              <h2 class="title">
+                  Who we really are & <br />
+                  why choose us
+              </h2>
+
+              <p class="mb-4 lead">
+                  We have over 4000+ unbiased reviews and our customers trust our plant process and delivery
+                  service every time
+              </p>
+
+        <div class="text-success">
+                  <p>
+                      <i class="fa-solid fa-circle-check about-icon"></i>
+                      We always deliver on time.
+                  </p>
+                  <p>
+                      <i class="fa-solid fa-circle-check about-icon"></i>
+                      We give you guides to protect and care for your plants.
+                  </p>
+                  <p>
+                      <i class="fa-solid fa-circle-check about-icon"></i>
+                      We always come over for a check-up after sale.
+                  </p>
+                  <p>
+                      <i class="fa-solid fa-circle-check about-icon"></i>
+                      100% money back guaranteed.
+                  </p>
+        </div>
+
+              <a href="#" class="btn text-success mt-2"> Shop Now <i class="fas fa-arrow-right ms-2"></i> </a>
+        </div>
+        </div>
+<!----------------------------------- main 02 end-------------------------------- -->
+
+
+        <!-- --------------------------main 03  start---------------------------------->
+        <div class="product" style="text-align: center;">
+         <h3>Our products</h3>
+         <br>
+         <button type="button" class="btn btn-secondary btn-lg">Featured</button>
+         <button type="button" class="btn btn-secondary btn-lg">Bestseller</button>
+         <button type="button" class="btn btn-secondary btn-lg">Latest</button>
+
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-3 pitem">
+            <img src="./assets/img-20231108T143936Z-001/img/product1.png" alt="" class="pimg">
+            <h6>American Marigold</h6>
+            <p>$22.45</p>
+            <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+
+            <div class="col-3 pitem">
+             <img src="./assets/img-20231108T143936Z-001/img/product2.png" alt="" class="pimg">
+             <h6>Black Eyed Susan</h6>
+             <p>$23.45</p>
+             <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+
+            <div class="col-3  pitem">
+            <img src="./assets/img-20231108T143936Z-001/img/product3.png" alt="" class="pimg">
+            <h6>Bleeding Heart</h6>
+            <p>$30.45</p>
+            <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+
+            <div class="col-3 pitem">
+             <img src="./assets/img-20231108T143936Z-001/img/product7.png" alt="" class="pimg">
+             <h6>Bloody Cranesbill</h6>
+             <p>$45.00</p>
+             <img src="./assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-3 pitem">
+            <img src="./assets/img-20231108T143936Z-001/img/product5.png" alt="" class="pimg">
+            <h6>Butterfly Weed</h6>
+            <p>$50.45</p>
+            <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+
+            <div class="col-3 pitem">
+             <img src="./assets/img-20231108T143936Z-001/img/product6.png" alt="" class="pimg">
+             <h6>Common Yarrow</h6>
+             <p>$65.00</p>
+             <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+
+            <div class="col-3 pitem">
+            <img src="./assets/img-20231108T143936Z-001/img/product3.png" alt="" class="pimg">
+            <h6>Doublefile Viburnum</h6>
+            <p>$67.45</p>
+            <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+
+            <div class="col-3 pitem">
+             <img src="./assets/img-20231108T143936Z-001/img/product2.png" alt="" class="pimg">
+             <h6>Feather Reed Grass</h6>
+             <p>$20.00</p>
+             <img src="assets/img-20231108T143936Z-001/img/images.png" alt="olive "class="star">
+            </div>
+        </div>
+        </div>
+    </div>
+      <!-- ------------------------------main 03 end----------------------------------------->
+
+      <!-------------------------- main 04 start -------------------------------------->
+            
+      <!-- <div class="faq">
+        <h2 class="faq__title">Some common questions<br>Were often asked</h2>
+         <p class="faq__subtitle">
+          Something is not clear? You need help? Check our FAQ section!
+        </p> -->
+        <div class="row section5">
+            <div class="col-lg-6 " >
+              <div class="quis">
+          <h1 style="margin-bottom: 10%; word-spacing:5px;">Some common questions<br>
+            were often asked</h1>
+        <button class="faq__question">What are my payment options?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sint, hic consequuntur consectetur, corporis enim ipsum quasi
+          </p>
+        </div>
+        <button class="faq__question">
+          How can I invite collaborator to platform?
+        </button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sint, hic consequuntur consectetur, corporis enim ipsum quasi
+          </p>
+        </div>
+        <button class="faq__question">Can I upgrade my plan?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sint, hic consequuntur consectetur, corporis enim ipsum quasi
+          </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-lg-6 ">
+            <div class="ans">
+        <button class="faq__question">Can I cancel my plan at anytime?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sint, hic consequuntur consectetur, corporis enim ipsum quasi
+            
+          </p>
+        </div>
+        <button class="faq__question">
+            How can I invite collaborator to platform?
+          </button>
+          <div class="faq__panel">
+            <p class="faq__answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              sint, hic consequuntur consectetur, corporis enim ipsum quasi
+            </p>
+          </div>
+          <button class="faq__question">
+            How can I invite collaborator to platform?
+          </button>
+          <div class="faq__panel">
+            <p class="faq__answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              sint, hic consequuntur consectetur, corporis enim ipsum quasi
+            </p>
+          </div>
+        </div>
+        </div> 
+        <!-------------------------- main 04 end-------------------------------- -->
+
+        <!------------------------ main 05 start-------------------- -->
+        <section id="team">
+          <div class="container">
+            <div class="heading4">WHAT SAY CLIENT</div>
+            <p style="padding-left:400px;">we give you guides to protect and care  guides to protect and care</p>
+          </div>
+          
+          <!-- bootstrap using--------------------- -->
+          <div class="container" id="container3">
+            <div class="row">
+          
+              <div class="col-md-3 py-3 py-3">
+                <div class="card">
+                    <img src="./assets/img-20231108T143936Z-001/job2.jpg" alt="" class="avatar">
+                
+                          <div class="body">
+                          <h3>PHONIEX BAKER</h3>
+                          <h5 style="padding-left:23px ;">client</h5>
+                          <p><br>Talent wins games, but teamwork and intelligence win championships</p>
+                                </div>
+                             </div> 
+                          </div>
+          
+                         <div class="col-md-3 py-3 py-3"> 
+                            <div class="card">
+                                <img src="./assets/img-20231108T143936Z-001/job1.jpg" alt="" class="avatar">
+                            
+                                  <div class="body">
+                                    <h3>PHONIEX BAKER</h3>
+                                    <h5 style="padding-left:28px ;">client</h5>
+                                    <p><br>The most important single ingredient in the formula </p>
+                                    </div>
+                              </div> 
+                        </div>
+          
+             <div class="col-md-3 py-3 py-3">
+                <div class="card">
+                    <img src="./assets/img-20231108T143936Z-001/job3.jpg" alt="" class="avatar">                
+                        <div class="body">
+                            <h3>PHONIEX BAKER</h3>
+                            <h5 style="padding-left:23px ;">client</h5>
+                            <p><br>There is no such thing as a self-made man. You will reach your goals only with </p>
+                          </div>
+                       </div> 
+                     </div>
+                  </div> 
+                </div>
+            </div>
+        <!-- The dots/circles -->
+              <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+                               
+                    </div>
+                 </div>
+              </div>
+          </section>
+        <!--------------------------- main 05 end---------------------------- -->
+
+<!-- ----------------conctact info ------------------------>
+<div class="contactcontainer">
+  <div class="contact1">
+  <h3>Contact info:</h3> <br>
+  <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing el Commodi, et.</p>
+   <p><img src="./assets/img-20231108T143936Z-001/telephone-fill.svg" alt="phone" class="conimg">  123 456 789</p>
+  <p><img src="./assets/img-20231108T143936Z-001/instagram.svg" alt="mail" class="conimg"> info@example.com</p>
+  <p><img src="./assets/img-20231108T143936Z-001/geo-alt-fill.svg" alt="location" class="conimg">jaffna town srilanka</p>
+  </div>
+
+  <div class="contact2">
+  <div class="fn"><input type="text" placeholder="Firstname*" class="inpt"></div>
+ <div class="ln"> <input type="text" placeholder="Lastname*" class="inpt"> </div><br> 
+  <div class="fn"><input type="text" placeholder="Phone*" class="  inpt"></div>
+  <div class="ln"><input type="text" placeholder="Email*" class="inpt"> </div> <br>  <br> 
+  
+  <textarea name="" id="" cols="65" rows="3" class="textarea1" placeholder="Message "></textarea> <br> <br>
+  <button class="contactbutton">Post comment</button>
+
+  </div>
+  </div>
+  </div>
+<!---------------------------- map section  ---------- -->
+  <section>
+    <div id="map">
+  
+    </div>
+  </section>
+  </div>
+         <!-- footer section start -->
+        <footer class="container footer">
+          <div class="row d-flex mt-4 main-row justify-content-center">
+              <div class="col-md-4">
+                  <a class="text-dark-green text-success text text-decoration-none my-5" href="#">
+                      <i class="fas fa-leaf"></i>
+                      Plantex
+                  </a>
+                  <h4 class="footer-title my-4">
+                      Subscribe to our newsletter <br />
+                      to stay update
+                  </h4>
+
+                  <div class="footer-subscribe my-4">
+                      <input type="email" placeholder="Enter your email" class="footer-input" />
+
+                      <button class="btn btn-success py-3">
+                          Subscribe
+                          <i class="fas fa-arrow-right ps-2"></i>
+                      </button>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <h3 class="footer-title">Our Address</h3>
+
+                  <ul class="list-unstyled my-4">
+                      <li class="my-2">1234 - Peru</li>
+                      <li class="my-2">La Libertad - 43210</li>
+                      <li class="my-2">123-456-789</li>
+                  </ul>
+              </div>
+
+              <div class="col-md-2">
+                  <h3 class="footer-title">Contact Us</h3>
+                  <p class="my-3 list-unstyled">+999 888 777</p>
+
+                  <div class="footer-social">
+                      <a href="https://www.facebook.com/" class="text-decoration-none">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                      <a href="https://www.instagram.com/" class="text-decoration-none">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="https://twitter.com/" class="text-decoration-none">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <h3 class="footer-title">We accept all credit cards</h3>
+
+                  <div class="footer-cards">
+                      <img src="assets/img-20231108T143936Z-001/img/card1.png" alt="" class="footer-card" />
+                      <img src="assets/img-20231108T143936Z-001/img/card2.png" alt="" class="footer-card" />
+                      <img src="assets/img-20231108T143936Z-001/img/card3.png" alt="" class="footer-card" />
+                      <img src="assets/img-20231108T143936Z-001/img/card4.png" alt="" class="footer-card" />
+                  </div>
+              </div>
+          </div>
+          <p class="text-center">&#169; Bedimcode. All rigths reserved</p>
+      </footer>
+      <!-- footer section end -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUZ61A_lK8Em8_DQ6kSlGzX-SDBK1lEKg&callback=initMap"></script>
+</body>
+</html>
